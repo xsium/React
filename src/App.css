@@ -25,14 +25,6 @@ a:hover {
   color: #535bf2;
 }
 
-.card{
-  background-color: #c5c5c5;
-  padding: 2em;
-  min-height: 260px;
-  margin: 15px;
-  min-width: 200px;
-
-}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -54,6 +46,10 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
+/*------------ section css end ------------*/
+
+/*------------ todolist css start ------------*/
 .todolist{
   background-color: #2c2c2c;
   border-radius: 5px;
@@ -71,4 +67,4 @@ button:focus-visible {
 .orange{
   color: orange;
 }
-/*------------ section css end ------------*/
+/*------------ todolist css end ------------*/

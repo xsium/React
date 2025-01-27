@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
-//import Card from './Card.jsx'
+import Card from './Card.jsx'
+import reactlogo from './assets/react.svg'
 
 const Todos = [
   { task: 'Manger', date: '27/01/2025, 12:00:00', task_check: true },
@@ -65,6 +66,13 @@ function Article(){
   );
 }
 
+const Users = [
+  { pseudo: 'Tyrfing', mail: 'test@gmail.com', image: reactlogo , description: "Des chiffres et des lettres lorem ipsum dolor sit amet"},
+  { pseudo: 'Tyrfing', mail: 'test@gmail.com', image: reactlogo , description: "Des chiffres et des lettres lorem ipsum dolor sit amet"},
+  { pseudo: 'Tyrfing', mail: 'test@gmail.com', image: reactlogo , description: "Des chiffres et des lettres lorem ipsum dolor sit amet"},
+  { pseudo: 'Tyrfing', mail: 'test@gmail.com', image: reactlogo , description: "Des chiffres et des lettres lorem ipsum dolor sit amet"},
+];
+
 function App() {
 
   return (
@@ -72,6 +80,20 @@ function App() {
     <section>
       <div className='mx-auto container'>
       <Article />
+      </div>
+      <div className='mx-auto container card-user'>
+      <h1>Liste des Utilisateurs:</h1>
+        <div className='card-list'>
+          {Users.map((user, index) => (
+            <Card
+              key={index}
+              pseudo={user.pseudo}
+              mail={user.mail}
+              image={user.image}
+              description={user.description}
+            />
+          ))}
+        </div>
       </div>
     </section>
     </>

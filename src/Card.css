@@ -1,0 +1,20 @@
+.card-user{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;;
+}
+article{
+    margin: 10px;
+}
+.card{
+    background-color: #c5c5c5;
+    min-height: 260px;
+    min-width: 200px;
+    max-width: 300px;
+  
+}
+.card-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

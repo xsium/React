@@ -1,0 +1,10 @@
+/*------------ footer css start ------------*/
+footer{
+  min-height: 2vh;
+  max-height: 2vh;
+}
+footer div{
+    width: 100%;
+    text-align: right;
+  }
+/*------------ footer css end ------------*/

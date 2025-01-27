@@ -1,0 +1,40 @@
+/*------------ header css start ------------*/
+
+#app_header{
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 22vh;
+    max-height: 22vh;
+  }
+  header {
+    background-color: #111111;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  #header1{
+    width: 200px;
+  }
+  #header2{
+    width: 100%;
+    padding-right: 200px;
+  }
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  .nav-item a{
+    color: #f4f4f4;
+  }
+  .nav-item a:active{
+    color: #7762d6 ;
+  }
+  .nav-item a:hover{
+    color: #7762d6 ;
+  }
+  
+  #logo{
+    width: 200px;
+  }
+  /*------------ header css end ------------*/

@@ -1,10 +1,12 @@
+import React, {useState} from 'react'
 import './Card.css'
-export default function Card({pseudo, mail, image, description}) {
+import Like from './Like.jsx';
+export default function Card({pseudo, mail, image, description,sexe}) {
+  const [border, setBorder] = useState( false );
 
   return (
-    <>
-    <article className='card'> 
-        <div className="container card">
+    <article className={border ? 'card-border' : ''} onMouseOver={() => setBorder(true)} onMouseLeave={() => setBorder(false)}> 
+        <div className={ sexe==="H" ?'card blue': sexe==="F" ?'card rose':'card yellow'} >
           <div className="card-header d-flex justify-content-between">
             <div className="container">
               <h2 className="lh-1 card-title">{pseudo}</h2>
@@ -17,9 +19,9 @@ export default function Card({pseudo, mail, image, description}) {
               {description}
             </p>
           </div>
+          <Like />
         </div>
 
     </article>
-    </>
 );
 }

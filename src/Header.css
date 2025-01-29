@@ -3,8 +3,6 @@
 #app_header{
     margin: 0 auto;
     padding: 2rem;
-    min-height: 22vh;
-    max-height: 22vh;
   }
   header {
     background-color: #111111;
@@ -17,7 +15,6 @@
   }
   #header2{
     width: 100%;
-    padding-right: 200px;
   }
   h1 {
     font-size: 3.2em;

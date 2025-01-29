@@ -1,8 +1,6 @@
 /*------------ section css start ------------*/
 section{
   width: 100%;
-  min-height: 76vh;
-
 }
 section>div{
   display: flex;
@@ -68,3 +66,12 @@ button:focus-visible {
   color: orange;
 }
 /*------------ todolist css end ------------*/
+
+/*------------ Card css start --------------*/
+.card-list{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*------------ Card css end ----------------*/

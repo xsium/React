@@ -1,7 +1,6 @@
 /*------------ footer css start ------------*/
 footer{
-  min-height: 2vh;
-  max-height: 2vh;
+  flex-shrink: 0;
 }
 footer div{
     width: 100%;

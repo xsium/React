@@ -9,12 +9,22 @@ article{
 .card{
     background-color: #c5c5c5;
     min-height: 260px;
-    min-width: 200px;
-    max-width: 300px;
+    max-height: 260px;
+    min-width: 250px;
+    max-width: 280px;
+    box-sizing: border-box;
   
 }
-.card-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.blue{
+    background-color: #3b91b3;
+}
+.rose{
+    background-color: #ea9aec;
+}
+.yellow{
+    background-color: #e2e1a2;
+}
+.card-border{
+    outline: 4px rgb(218, 218, 218) solid;
+    border-radius: 2%;
 }

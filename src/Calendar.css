@@ -1,0 +1,106 @@
+.calendar-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(66, 66, 66, 0.5);
+    border-radius: 5px;
+}
+#calendar{
+    min-width: fit-content;
+    min-height: 390px;
+    box-sizing: content-box;
+    text-align: center;
+    outline: 2px solid black;
+    border-radius: 5px;
+}
+.month{
+    background-color: orange;
+    font-size: 2rem;
+}
+.grid7{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+}
+.grid7 .days{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    
+}
+.card-calendar{
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.backgroundOrange:hover{
+    background-color: orange;
+    border-radius: 50%;
+}
+.backgroundWhite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: White;
+    outline: 1px rgb(200, 200, 200) solid ;
+    border-radius: 5px;
+    margin: 3px;
+}
+.selected{
+    background-color: orange;
+    border-radius: 50%;
+}
+.confirmed{
+    background-color: rgb(101, 244, 101);
+    border-radius: 50%;
+}
+.calendar-wrap .formcalendar,.event-container{
+    height: 390px;
+    min-width: 260px;
+    max-width: 260px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    outline: 1px rgb(200, 200, 200) solid ;
+    border-radius: 5px;
+    margin: 10px
+}
+
+
+.event-text{
+    min-height: 221px;
+    height:100%;
+}
+.event-container h2{
+    font-size: 1.5rem;
+    height: 51px;
+    display: block;
+    background-color:orange;
+}
+.event-container h4{
+    font-size: 1.4rem;
+    word-break: break-all;
+}
+.event-container p{
+    font-size: 1.1rem;
+}
+.formcalendar h2{
+    font-size: 1.5rem;
+    height: 51px;
+    display: block;
+    background-color:orange;
+     
+}
+.formcal{
+    margin: 3px;
+}
+.formcalendar input:last-of-type{
+    height: 60px;
+    margin-top: 45px;
+    border-radius: 5px;
+}

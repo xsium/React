@@ -15,7 +15,7 @@ export default function Card() {
         <div className="container-fluid d-flex flex-column" id="header2">
           <h1>Tyrfing's Den</h1>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler m-3"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

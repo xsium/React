@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './App.css'
 import Card from './Card.jsx'
 import reactlogo from './assets/react.svg'
+import Calendar from './Calendar.jsx'
 
 
 //Variables-------------------------------------------
@@ -137,8 +138,9 @@ function Article({children}){
     </article>
   );
 }
+//----------------------------------------------------
 
-
+//Composant Form--------------------------------------
 function Form({ onSubmit }){
   function handleChange(event){
     console.log(event.target.value);
@@ -215,6 +217,11 @@ function App() {
         <ArticleCard />
       </div>
       }
+      </section>
+      <section>
+        <div className='mx-auto container'>
+        <Calendar />
+        </div>
       </section>
     </div>
     </>

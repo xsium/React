@@ -3,7 +3,6 @@ import './Card.css'
 import Like from './Like.jsx';
 export default function Card({pseudo, mail, image, description,sexe}) {
   const [border, setBorder] = useState( false );
-
   return (
     <article className={border ? 'card-border' : ''} onMouseOver={() => setBorder(true)} onMouseLeave={() => setBorder(false)}> 
         <div className={ sexe==="H" ?'card blue': sexe==="F" ?'card rose':'card yellow'} >
